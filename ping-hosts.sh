@@ -54,8 +54,7 @@ ping -c1 $hosts &> /dev/null
 # description: this script will ping an IP address to check for the connectivity
 # this script uses a file instead of the hosts variable (recommended rather than hard code in a program) 
 # this script uses for-loop
-
-
+# You need to set up a file with host IP address at the IPLIST path
 
 IPLIST="path_to_the_Ip_list_file"
 
