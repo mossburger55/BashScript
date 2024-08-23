@@ -41,3 +41,15 @@ for day in Mon Tue Wed Thu Fri
 do
   echo "Weekday $((i++)) : $day"
 done
+
+
+#!/bin/bash
+# author: mossburger55
+# date: Aug 22, 2024
+# description: this script list each user from /etc/psswd file
+
+i=1
+for username in `awk -F: '{print $1}' /etc/passwd`
+do
+echo "Username $((i++)) : $username"
+done
