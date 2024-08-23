@@ -1,7 +1,7 @@
 #!/bin/bash 
 # author: mossburger55
 # date Aug 22, 2024
-# description: case-statement basic use with some choptions to choose from
+# description: case-statement basic use with some options to choose from
 
 echo
 echo Please chose one of the options below
